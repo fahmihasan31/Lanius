@@ -1,6 +1,7 @@
 import React from 'react'
 
 import { FaStar } from "react-icons/fa";
+import healthy from './images/gambar.jpg'
 
 const landingPage = () => {
   return (
@@ -82,31 +83,53 @@ const landingPage = () => {
         </div>
       </section>
 
-      <section className='mt-24'>
-        <div className="flex justify-center items-start py-8 px-4">
-          {/* Image Section */}
+      <section className="mt-24">
+        <div className="flex justify-center items-center py-8 px-4">
+
+          {/* Image Section on the Right */}
           <div className="w-1/3 flex justify-center items-center">
-            <div className="w-48 h-64 border border-gray-400">
+            <div className="w-48 h-64 ">
+              <img src="healthy" alt="healthy" />
             </div>
           </div>
 
-          {/* Text Content Section */}
-          <div className="w-2/3 pl-8">
+          {/* Text Content Section on the Left */}
+          <div className="w-2/3 pr-8">
             <h2 className="text-5xl font-semibold mb-4 text-gray-900 font-mono">
-              Kenapa harus <span className="font-bold ">hidup sehat?</span>
+              Kenapa harus <span className="font-bold">hidup sehat?</span>
             </h2>
             <p className="text-gray-600 mb-6 font-mono">
               Lorem ipsum dolor sit amet consectetur. At pulvinar ut consequat
-              etiam nisl tincidunt a porttitor diam. Velit ut senectus tellus ipsum nam.
+              etiam nisl tincidunt a porttitor diam. Velit ut <br />
+              senectus tellus ipsum nam.
             </p>
+
+            {/* Tips Section with Numbered Boxes */}
             <ul className="text-gray-600 space-y-4 font-mono">
-              <li>01 Lorem ipsum dolor sit amet consectetur. Vitae nibh at pellentesque lorem.</li>
-              <li>02 Lorem ipsum dolor sit amet consectetur. Vitae nibh at pellentesque lorem.</li>
-              <li>03 Lorem ipsum dolor sit amet consectetur. Vitae nibh at pellentesque lorem.</li>
+              <li className="flex items-center">
+                <div className="w-10 h-10 flex justify-center items-center border border-gray-400 font-bold mr-4">
+                  01
+                </div>
+                <span> Lorem ipsum dolor sit amet consectetur. Vitae nibh at pellentesque lorem.</span>
+              </li>
+              <li className="flex items-center">
+                <div className="w-10 h-10 flex justify-center items-center border border-gray-400 font-bold mr-4">
+                  02
+                </div>
+                <span> Lorem ipsum dolor sit amet consectetur. Vitae nibh at pellentesque lorem.</span>
+              </li>
+              <li className="flex items-center">
+                <div className="w-10 h-10 flex justify-center items-center border border-gray-400 font-bold mr-4">
+                  03
+                </div>
+                <span> Lorem ipsum dolor sit amet consectetur. Vitae nibh at pellentesque lorem.</span>
+              </li>
             </ul>
           </div>
+
         </div>
       </section>
+
 
       <section className='mt-24'>
         <div className="flex flex-col items-center py-8">
