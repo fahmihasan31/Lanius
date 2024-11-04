@@ -1,6 +1,6 @@
 import React from 'react'
 
-import { FaStar } from "react-icons/fa";
+import { FaStar, FaDiscord, FaTiktok, FaInstagram, FaTwitter } from "react-icons/fa";
 // import healthy from './images/gambar.jpg'
 
 const landingPage = () => {
@@ -127,62 +127,62 @@ const landingPage = () => {
               </li>
             </ul>
           </div>
-
         </div>
       </section>
 
       <section className="mt-24 py-12">
         <div className="flex flex-col items-center">
-          {/* Title */}
           <h2 className="text-4xl font-mono font-bold mb-10 text-gray-900">Program Unggulan Kami</h2>
-
-          {/* Card Container */}
           <div className="flex space-x-6">
             {/* Card 1 */}
-            <div className="w-120 h-50 border border-green-600 flex bg-white shadow-md p-4">
+            <div className="w-full max-w-[450px] h-[180px] border border-green-600 flex justify-between bg-white shadow-md p-4">
               {/* Image Section */}
-              <div className="w-1/2 h-full">
+              <div className="w-1/2 h-full mr-4">
                 <div className="w-full h-full bg-green-600"></div>
               </div>
-
               {/* Text Content Section */}
-              <div className="w-2/3 p-4 flex-col justify-between">
-                {/* Title Sejajar dengan Gambar di Bagian Atas */}
-                <h3 className="text-xl font-mono font-bold text-gray-900">Hidup Sehat</h3>
-
-                {/* Deskripsi di Tengah */}
-                <p className="text-gray-600 text-sm">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-
-                {/* Button Detail Sejajar dengan Gambar di Bagian Bawah */}
-                <button className="text-green-700 font-bold hover:text-green-800 transition duration-200">
+              <div className="w-1/2 flex-col justify-between">
+                <h3 className="text-xl font-mono font-bold text-gray-900 mb-2">Hidup Sehat</h3>
+                <p className="text-gray-600 text-sm overflow-hidden text-ellipsis line-clamp-3">
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                </p>
+                <button className="text-green-700 font-bold hover:text-green-800 transition duration-200 mt-6">
                   Detail
                 </button>
               </div>
             </div>
 
             {/* Card 2 */}
-            <div className="w-120 h-50 border border-green-600 flex bg-white shadow-md p-4">
-              <div className="w-1/2 h-full">
+            <div className="w-full max-w-[450px] h-[180px] border border-green-600 flex justify-between bg-white shadow-md p-4">
+              {/* Image Section */}
+              <div className="w-1/2 h-full mr-4">
                 <div className="w-full h-full bg-green-600"></div>
               </div>
-              <div className="w-2/3 p-4 flex-col justify-between">
-                <h3 className="text-xl font-mono font-bold text-gray-900">Hidup Sehat</h3>
-                <p className="text-gray-600 text-sm">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-                <button className="text-green-700 font-bold hover:text-green-800 transition duration-200">
+              {/* Text Content Section */}
+              <div className="w-1/2 flex-col justify-between">
+                <h3 className="text-xl font-mono font-bold text-gray-900 mb-2">Hidup Sehat</h3>
+                <p className="text-gray-600 text-sm overflow-hidden text-ellipsis line-clamp-3">
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                </p>
+                <button className="text-green-700 font-bold hover:text-green-800 transition duration-200 mt-6">
                   Detail
                 </button>
               </div>
             </div>
 
             {/* Card 3 */}
-            <div className="w-120 h-50 border border-green-600 flex bg-white shadow-md p-4">
-              <div className="w-1/2 h-full">
+            <div className="w-full max-w-[450px] h-[180px] border border-green-600 flex justify-between bg-white shadow-md p-4">
+              {/* Image Section */}
+              <div className="w-1/2 h-full mr-4">
                 <div className="w-full h-full bg-green-600"></div>
               </div>
-              <div className="w-2/3 p-4 flex-col justify-between">
-                <h3 className="text-xl font-mono font-bold text-gray-900">Hidup Sehat</h3>
-                <p className="text-gray-600 text-sm">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-                <button className="text-green-700 font-bold hover:text-green-800 transition duration-200">
+              {/* Text Content Section */}
+              <div className="w-1/2 flex-col justify-between">
+                <h3 className="text-xl font-mono font-bold text-gray-900 mb-2">Hidup Sehat</h3>
+                <p className="text-gray-600 text-sm overflow-hidden text-ellipsis line-clamp-3">
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                </p>
+                <button className="text-green-700 font-bold hover:text-green-800 transition duration-200 mt-6">
                   Detail
                 </button>
               </div>
@@ -191,43 +191,86 @@ const landingPage = () => {
         </div>
       </section>
 
-
-      <footer className='mt-24 bg-green-800'>
-        <div className="container mx-auto p-4 grid grid-cols-1 md:grid-cols-3 gap-5">
+      <footer className="mt-24 bg-green-900 p-20">
+        <div className="container mx-auto grid grid-cols-1 md:grid-cols-3 gap-5 flex justify-between">
           {/* Text 1 */}
-          <div className="text-block p-4 ml-16">
-            <p className="text-gray-700 text-s mb-2 font-mono">
+          <div className="text-block p-4">
+            <p className="text-xl font-bold text-white mb-2 font-mono">HI-FI</p>
+            <p className="text-white text-sm font-mono">
               Lorem ipsum dolor sit amet consectetur. At pulvinar ut consequat
               etiam nisl tincidunt a porttitor diam. Velit et senectus tellus
               ipsum nam.
             </p>
           </div>
 
-          {/* Text 2 */}
-          <div className="text-block p-4 ml-4">
-            <p className="text-gray-700 text-s mb-2 font-mono">
-              Lorem ipsum dolor sit amet consectetur. At pulvinar ut consequat
-              etiam nisl tincidunt a porttitor diam. Velit et senectus tellus
-              ipsum nam.
-            </p>
+          {/* Social Media Section */}
+          {/* Social Media Section */}
+          <div className="text-block p-4 flex flex-col items-center">
+            <p className="text-xl font-bold text-white mb-4 font-mono text-center">Social Media</p>
+            <ul className="space-y-2 text-white text-sm font-mono">
+              <li className="flex items-center space-x-2">
+                <span className="text-2xl"><i className="text-pink-500"><FaInstagram /></i></span>
+                <span>Instagram</span>
+              </li>
+              <li className="flex items-center space-x-2">
+                <span className="text-2xl"><i className="text-blue-500"><FaTwitter /></i></span>
+                <span>Twitter</span>
+              </li>
+              <li className="flex items-center space-x-2">
+                <span className="text-2xl"><i className="text-black"><FaTiktok /></i></span>
+                <span>TikTok</span>
+              </li>
+              <li className="flex items-center space-x-2">
+                <span className="text-2xl"><i className="text-blue-700"><FaDiscord /></i></span>
+                <span>Discord</span>
+              </li>
+            </ul>
           </div>
+
 
           {/* Form */}
-          <div className="form-container p-5">
-            <h2 className="text-2xl font-bold mb-2 text-gray-900 font-mono">Contact Us</h2>
-            <form className="flex items-center space-x-2">
-              <input
-                type="text"
-                className="p-3 border border-gray-900 w-48"
-              />
+          <div className="form-container p-6 bg-green-800 rounded-lg shadow-lg max-w-lg ">
+            <h2 className="text-2xl font-bold mb-4 text-white font-mono text-center">Contact Us</h2>
+            <form className="space-y-4">
+              <div>
+                <label htmlFor="name" className="block text-white font-medium mb-1">Name</label>
+                <input
+                  type="text"
+                  id="name"
+                  placeholder="Your Name"
+                  className="p-3 border border-gray-300 rounded-lg w-full focus:outline-none focus:ring-2 focus:ring-blue-500 transition duration-200"
+                  required
+                />
+              </div>
+              <div>
+                <label htmlFor="email" className="block text-white font-medium mb-1">Email</label>
+                <input
+                  type="email"
+                  id="email"
+                  placeholder="Your Email"
+                  className="p-3 border border-gray-300 rounded-lg w-full focus:outline-none focus:ring-2 focus:ring-blue-500 transition duration-200"
+                  required
+                />
+              </div>
+              <div>
+                <label htmlFor="message" className="block text-white font-medium mb-1">Message</label>
+                <textarea
+                  id="message"
+                  placeholder="Your Message"
+                  // rows="4"
+                  className="p-3 border border-gray-300 rounded-lg w-full h-32 focus:outline-none focus:ring-2 focus:ring-blue-500 transition duration-200"
+                  required
+                ></textarea>
+              </div>
               <button
                 type="submit"
-                className="bg-white border border-black text-black font-bold py-3 px-4 hover:bg-gray-900 hover:text-white transition duration-300 ease-in-out"
+                className="w-full bg-green-600 text-white font-bold py-3 rounded-lg hover:bg-green-700 transition duration-300 ease-in-out"
               >
                 Send
               </button>
             </form>
           </div>
+
         </div>
       </footer>
     </div>
