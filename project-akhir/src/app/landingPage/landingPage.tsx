@@ -1,7 +1,7 @@
 import React from 'react'
 
 import { FaStar } from "react-icons/fa";
-import healthy from './images/gambar.jpg'
+// import healthy from './images/gambar.jpg'
 
 const landingPage = () => {
   return (
@@ -84,10 +84,10 @@ const landingPage = () => {
       </section>
 
       <section className="mt-24">
-        <div className="flex justify-center items-center py-8 px-4">
+        <div className="flex justify-center items-center py-8 px-10">
 
           {/* Image Section on the Right */}
-          <div className="w-1/3 flex justify-center items-center">
+          <div className="w-1/2 flex justify-center items-center">
             <div className="w-48 h-64 ">
               <img src="healthy" alt="healthy" />
             </div>
@@ -95,31 +95,32 @@ const landingPage = () => {
 
           {/* Text Content Section on the Left */}
           <div className="w-2/3 pr-8">
-            <h2 className="text-5xl font-semibold mb-4 text-gray-900 font-mono">
+            <h2 className="text-5xl font-semibold mb-10 text-gray-900 font-mono">
               Kenapa harus <span className="font-bold">hidup sehat?</span>
             </h2>
             <p className="text-gray-600 mb-6 font-mono">
               Lorem ipsum dolor sit amet consectetur. At pulvinar ut consequat
-              etiam nisl tincidunt a porttitor diam. Velit ut <br />
+              etiam nisl tincidunt a porttitor diam. Velit ut Lorem ipsum dolor sit amet consectetur. At pulvinar ut consequat
+              etiam nisl tincidunt a porttitor diam. Velit ut
               senectus tellus ipsum nam.
             </p>
 
             {/* Tips Section with Numbered Boxes */}
             <ul className="text-gray-600 space-y-4 font-mono">
               <li className="flex items-center">
-                <div className="w-10 h-10 flex justify-center items-center border border-gray-400 font-bold mr-4">
+                <div className="w-10 h-10 flex justify-center items-center border border-green text-white mr-4 bg-green-700">
                   01
                 </div>
                 <span> Lorem ipsum dolor sit amet consectetur. Vitae nibh at pellentesque lorem.</span>
               </li>
               <li className="flex items-center">
-                <div className="w-10 h-10 flex justify-center items-center border border-gray-400 font-bold mr-4">
+                <div className="w-10 h-10 flex justify-center items-center border border-green text-white mr-4 bg-green-700">
                   02
                 </div>
                 <span> Lorem ipsum dolor sit amet consectetur. Vitae nibh at pellentesque lorem.</span>
               </li>
               <li className="flex items-center">
-                <div className="w-10 h-10 flex justify-center items-center border border-gray-400 font-bold mr-4">
+                <div className="w-10 h-10 flex justify-center items-center border border-green text-white mr-4 bg-green-700">
                   03
                 </div>
                 <span> Lorem ipsum dolor sit amet consectetur. Vitae nibh at pellentesque lorem.</span>
@@ -130,20 +131,66 @@ const landingPage = () => {
         </div>
       </section>
 
-
-      <section className='mt-24'>
-        <div className="flex flex-col items-center py-8">
+      <section className="mt-24 py-12">
+        <div className="flex flex-col items-center">
           {/* Title */}
-          <h2 className="text-5xl font-mono font-bold mb-6 text-gray-900">Program Kami</h2>
+          <h2 className="text-4xl font-mono font-bold mb-10 text-gray-900">Program Unggulan Kami</h2>
 
-          {/* Boxes */}
-          <div className="flex space-x-12 mt-16">
-            <div className="w-48 h-64 border border-gray-400"> </div>
-            <div className="w-48 h-64 border border-gray-400"> </div>
-            <div className="w-48 h-64 border border-gray-400"> </div>
+          {/* Card Container */}
+          <div className="flex space-x-6">
+            {/* Card 1 */}
+            <div className="w-120 h-50 border border-green-600 flex bg-white shadow-md p-4">
+              {/* Image Section */}
+              <div className="w-1/2 h-full">
+                <div className="w-full h-full bg-green-600"></div>
+              </div>
+
+              {/* Text Content Section */}
+              <div className="w-2/3 p-4 flex-col justify-between">
+                {/* Title Sejajar dengan Gambar di Bagian Atas */}
+                <h3 className="text-xl font-mono font-bold text-gray-900">Hidup Sehat</h3>
+
+                {/* Deskripsi di Tengah */}
+                <p className="text-gray-600 text-sm">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+
+                {/* Button Detail Sejajar dengan Gambar di Bagian Bawah */}
+                <button className="text-green-700 font-bold hover:text-green-800 transition duration-200">
+                  Detail
+                </button>
+              </div>
+            </div>
+
+            {/* Card 2 */}
+            <div className="w-120 h-50 border border-green-600 flex bg-white shadow-md p-4">
+              <div className="w-1/2 h-full">
+                <div className="w-full h-full bg-green-600"></div>
+              </div>
+              <div className="w-2/3 p-4 flex-col justify-between">
+                <h3 className="text-xl font-mono font-bold text-gray-900">Hidup Sehat</h3>
+                <p className="text-gray-600 text-sm">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                <button className="text-green-700 font-bold hover:text-green-800 transition duration-200">
+                  Detail
+                </button>
+              </div>
+            </div>
+
+            {/* Card 3 */}
+            <div className="w-120 h-50 border border-green-600 flex bg-white shadow-md p-4">
+              <div className="w-1/2 h-full">
+                <div className="w-full h-full bg-green-600"></div>
+              </div>
+              <div className="w-2/3 p-4 flex-col justify-between">
+                <h3 className="text-xl font-mono font-bold text-gray-900">Hidup Sehat</h3>
+                <p className="text-gray-600 text-sm">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                <button className="text-green-700 font-bold hover:text-green-800 transition duration-200">
+                  Detail
+                </button>
+              </div>
+            </div>
           </div>
         </div>
       </section>
+
 
       <footer className='mt-24 bg-green-800'>
         <div className="container mx-auto p-4 grid grid-cols-1 md:grid-cols-3 gap-5">
