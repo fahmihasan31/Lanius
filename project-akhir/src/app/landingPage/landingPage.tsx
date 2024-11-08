@@ -1,7 +1,8 @@
 import React from 'react'
 
-import { FaStar } from "react-icons/fa";
-import healthy from './images/gambar.jpg'
+// import { FaStar } from "react-icons/fa";
+import Image from 'next/image' // Import Image from Next.js
+import Vector from '../images/Vector.png'
 
 const landingPage = () => {
   return (
@@ -64,7 +65,7 @@ const landingPage = () => {
 
             {/* Icon with rotating animation */}
             <span className="text-2xl animate-spin-slow">
-              <FaStar className="w-8 h-8" />
+              {/* <FaStar className="w-8 h-8" /> */}
             </span>
 
             <span className="text-2xl font-mono font-bold cursor-pointer">
@@ -73,7 +74,7 @@ const landingPage = () => {
 
             {/* Icon with rotating animation */}
             <span className="text-2xl animate-spin-slow">
-              <FaStar className="w-8 h-8" />
+              {/* <FaStar className="w-8 h-8" /> */}
             </span>
 
             <span className="text-2xl font-mono font-bold cursor-pointer">
@@ -88,9 +89,14 @@ const landingPage = () => {
 
           {/* Image Section on the Right */}
           <div className="w-1/3 flex justify-center items-center">
-            <div className="w-48 h-64 ">
-              <img src="healthy" alt="healthy" />
-            </div>
+          <div className="w-48 h-64">
+          <Image
+            src={Vector}
+            width={500}
+            height={500}
+            alt="Picture of the author"
+          />
+          </div>
           </div>
 
           {/* Text Content Section on the Left */}
