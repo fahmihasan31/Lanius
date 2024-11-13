@@ -233,51 +233,6 @@ const landingPage = () => {
               </li>
             </ul>
           </div>
-
-
-          {/* Form */}
-          <div className="form-container p-6 bg-green-800 rounded-lg shadow-lg max-w-lg ">
-            <h2 className="text-2xl font-bold mb-4 text-white font-mono text-center">Contact Us</h2>
-            <form className="space-y-4">
-              <div>
-                <label htmlFor="name" className="block text-white font-medium mb-1">Name</label>
-                <input
-                  type="text"
-                  id="name"
-                  placeholder="Your Name"
-                  className="p-3 border border-gray-300 rounded-lg w-full focus:outline-none focus:ring-2 focus:ring-blue-500 transition duration-200"
-                  required
-                />
-              </div>
-              <div>
-                <label htmlFor="email" className="block text-white font-medium mb-1">Email</label>
-                <input
-                  type="email"
-                  id="email"
-                  placeholder="Your Email"
-                  className="p-3 border border-gray-300 rounded-lg w-full focus:outline-none focus:ring-2 focus:ring-blue-500 transition duration-200"
-                  required
-                />
-              </div>
-              <div>
-                <label htmlFor="message" className="block text-white font-medium mb-1">Message</label>
-                <textarea
-                  id="message"
-                  placeholder="Your Message"
-                  // rows="4"
-                  className="p-3 border border-gray-300 rounded-lg w-full h-32 focus:outline-none focus:ring-2 focus:ring-blue-500 transition duration-200"
-                  required
-                ></textarea>
-              </div>
-              <button
-                type="submit"
-                className="w-full bg-green-600 text-white font-bold py-3 rounded-lg hover:bg-green-700 transition duration-300 ease-in-out"
-              >
-                Send
-              </button>
-            </form>
-          </div>
-
         </div>
       </footer>
     </div>
