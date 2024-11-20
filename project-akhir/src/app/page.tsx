@@ -1,13 +1,10 @@
 import React from 'react';
 
-import LandingPage from './landingPage/landingPage'
-import LoginForm from './login/loginForm';
-import RegisterForm from './register/registerForm';
-
+import LandingPage from './landingPage/page'
 
 const Home = () => {
   return (
-    <LoginForm />
+    <LandingPage />
   );
 };
 
