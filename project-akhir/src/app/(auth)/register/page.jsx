@@ -1,7 +1,6 @@
 // components/RegisterForm.js
-import { FaGoogle } from "react-icons/fa";
-import Image from 'next/image';
-import Login from '../images/login.jpg';
+import Image from "next/image";
+import Login from "@/app/images/login.jpg";
 
 const RegisterForm = () => {
   return (
@@ -18,12 +17,17 @@ const RegisterForm = () => {
       {/* Bagian form register */}
       <div className="w-1/2 flex flex-col justify-center items-center bg-white p-10 shadow-lg">
         <h1 className="text-5xl font-bold mb-6 text-green-700">Register!</h1>
-        <p className="mb-6 text-gray-600">Let's make your account first! Please fill the box below</p>
+        <p className="mb-6 text-gray-600">
+          Let's make your account first! Please fill the box below
+        </p>
 
         <form className="w-full max-w-sm space-y-4">
           {/* Input Username */}
           <div className="flex flex-col mb-2">
-            <label htmlFor="username" className="text-sm font-semibold text-gray-700 mb-2">
+            <label
+              htmlFor="username"
+              className="text-sm font-semibold text-gray-700 mb-2"
+            >
               Username
             </label>
             <input
@@ -36,7 +40,10 @@ const RegisterForm = () => {
 
           {/* Input Email */}
           <div className="flex flex-col mb-2">
-            <label htmlFor="email" className="text-sm font-semibold text-gray-700 mb-2">
+            <label
+              htmlFor="email"
+              className="text-sm font-semibold text-gray-700 mb-2"
+            >
               Email
             </label>
             <input
@@ -49,7 +56,10 @@ const RegisterForm = () => {
 
           {/* Input Password */}
           <div className="flex flex-col mb-2">
-            <label htmlFor="password" className="text-sm font-semibold text-gray-700 mb-2">
+            <label
+              htmlFor="password"
+              className="text-sm font-semibold text-gray-700 mb-2"
+            >
               Password
             </label>
             <input
@@ -62,7 +72,10 @@ const RegisterForm = () => {
 
           {/* Confirm Password */}
           <div className="flex flex-col mb-2">
-            <label htmlFor="confirm-password" className="text-sm font-semibold text-gray-700 mb-2">
+            <label
+              htmlFor="confirm-password"
+              className="text-sm font-semibold text-gray-700 mb-2"
+            >
               Confirm Password
             </label>
             <input
@@ -73,7 +86,10 @@ const RegisterForm = () => {
             />
 
             <div className="text-right mt-2 mb-4">
-              <a href="#" className="text-green-700 text-sm hover:text-green-900 transition duration-200">
+              <a
+                href="#"
+                className="text-green-700 text-sm hover:text-green-900 transition duration-200"
+              >
                 Forgot Password?
               </a>
             </div>
@@ -87,7 +103,10 @@ const RegisterForm = () => {
           {/* Link ke halaman login */}
           <p className="text-center text-gray-600">
             Already have an account?{" "}
-            <a href="#" className="text-green-700 font-semibold hover:text-green-900 transition duration-200">
+            <a
+              href="/login"
+              className="text-green-700 font-semibold hover:text-green-900 transition duration-200"
+            >
               Sign In
             </a>
           </p>

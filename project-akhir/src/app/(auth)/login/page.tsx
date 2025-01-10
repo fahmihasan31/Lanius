@@ -1,7 +1,6 @@
 // components/RegisterForm.js
-import { FaGoogle } from "react-icons/fa";
 import Image from "next/image";
-import Login from "../images/login.jpg";
+import Login from "@/app/images/login.jpg";
 
 const LoginForm = () => {
   return (
@@ -70,7 +69,7 @@ const LoginForm = () => {
           <p className="text-center text-gray-600">
             Dont have an account?{" "}
             <a
-              href="#"
+              href="/register"
               className="text-green-700 font-semibold hover:text-green-900 transition duration-200"
             >
               Sign Up
