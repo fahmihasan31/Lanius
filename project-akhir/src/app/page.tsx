@@ -30,7 +30,7 @@ const Home = () => {
 
             {/* Button 2: Jelajahi */}
             <a
-              href="#"
+              href="/mitigasi-resiko"
               className="bg-white text-green-800 border border-green-800 px-6 py-2 rounded-md hover:bg-green-700 hover:text-white transition duration-200"
             >
               Jelajahi

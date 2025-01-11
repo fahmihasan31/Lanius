@@ -9,13 +9,13 @@ const Header = () => {
 
         {/* Navigasi di tengah */}
         <nav className="flex-1 mx-4 text-center">
-          <a href="#home" className="mx-4 text-gray-600 hover:text-green-500">
+          <a href="/" className="mx-4 text-gray-600 hover:text-green-500">
             Home
           </a>
-          <a href="#shop" className="mx-4 text-gray-600 hover:text-green-500">
+          <a href="/not-found" className="mx-4 text-gray-600 hover:text-green-500">
             Shop
           </a>
-          <a href="#event" className="mx-4 text-gray-600 hover:text-green-500">
+          <a href="/not-found" className="mx-4 text-gray-600 hover:text-green-500">
             Event
           </a>
         </nav>
