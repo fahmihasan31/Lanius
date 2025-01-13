@@ -22,7 +22,7 @@ const Home = () => {
           <div className="flex justify-center space-x-4 mt-8">
             {/* Button 1: Lanjutkan */}
             <a
-              href="#"
+              href="/mitigasi-resiko"
               className="bg-green-700 text-white px-6 py-2 rounded-md hover:bg-green-800 transition duration-200"
             >
               Lanjutkan
@@ -30,7 +30,7 @@ const Home = () => {
 
             {/* Button 2: Jelajahi */}
             <a
-              href="/mitigasi-resiko"
+              href="#"
               className="bg-white text-green-800 border border-green-800 px-6 py-2 rounded-md hover:bg-green-700 hover:text-white transition duration-200"
             >
               Jelajahi
@@ -153,9 +153,11 @@ const Home = () => {
                   ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum
                   dolor sit amet, consectetur adipiscing elit.
                 </p>
-                <button className="text-green-700 font-bold hover:text-green-800 transition duration-200 mt-6">
-                  Detail
-                </button>
+                <a href="/event">
+                  <button className="text-green-700 font-bold hover:text-green-800 transition duration-200 mt-6">
+                    Detail
+                  </button>
+                </a>
               </div>
             </div>
 
@@ -168,16 +170,18 @@ const Home = () => {
               {/* Text Content Section */}
               <div className="w-1/2 flex-col justify-between">
                 <h3 className="text-xl font-mono font-bold text-gray-900 mb-2">
-                  Hidup Sehat
+                  Marketplace
                 </h3>
                 <p className="text-gray-600 text-sm overflow-hidden text-ellipsis line-clamp-3">
                   Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem
                   ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum
                   dolor sit amet, consectetur adipiscing elit.
                 </p>
-                <button className="text-green-700 font-bold hover:text-green-800 transition duration-200 mt-6">
-                  Detail
-                </button>
+                <a href="/marketplace">
+                  <button className="text-green-700 font-bold hover:text-green-800 transition duration-200 mt-6">
+                    Detail
+                  </button>
+                </a>
               </div>
             </div>
 
@@ -190,16 +194,18 @@ const Home = () => {
               {/* Text Content Section */}
               <div className="w-1/2 flex-col justify-between">
                 <h3 className="text-xl font-mono font-bold text-gray-900 mb-2">
-                  Hidup Sehat
+                  Mitigasi Resiko
                 </h3>
                 <p className="text-gray-600 text-sm overflow-hidden text-ellipsis line-clamp-3">
                   Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem
                   ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum
                   dolor sit amet, consectetur adipiscing elit.
                 </p>
-                <button className="text-green-700 font-bold hover:text-green-800 transition duration-200 mt-6">
-                  Detail
-                </button>
+                <a href="/mitigasi-resiko">
+                  <button className="text-green-700 font-bold hover:text-green-800 transition duration-200 mt-6">
+                    Detail
+                  </button>
+                </a>
               </div>
             </div>
           </div>
